@@ -1,0 +1,16 @@
+body {
+    margin : 0;
+    background-image: url(./xyz.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.name {
+    font-size: 20;
+    color: black;
+}
+
+#hi {
+    font-size: 50;
+    color: black;
+}
