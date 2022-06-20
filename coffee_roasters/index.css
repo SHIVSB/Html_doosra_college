@@ -1,0 +1,300 @@
+body {
+  margin: 0;
+  background-color: rgb(251, 250, 247);
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+}
+
+.seconddiv {
+  margin-top: 80px;
+  background-image: url(./First_image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.coffeetext {
+  width: 30vw;
+  font-size: 70px;
+}
+
+.create-button {
+  padding: 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  border: none;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.coffeebags {
+  margin-top: -70px;
+  margin-bottom: 200px;
+}
+
+.quality {
+  display: flex;
+  flex-direction: row;
+}
+
+.choose {
+  background-color: rgb(16, 62, 73);
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 70vh;
+  border-radius: 10px;
+}
+
+.choosecard {
+  color: white;
+}
+
+.steps {
+  display: flex;
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 600px) {
+  .step {
+    margin-right: 10px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .bag {
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .content {
+    width: 700px;
+    /* background-color: red; */
+  }
+
+  .coffeebags {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .footer {
+    height: 100px;
+  }
+
+  .choose1 {
+    width: 500px;
+    font-size: larger;
+    margin-top: 50px;
+  }
+
+  .choosecard {
+    width: 18vw;
+    height: 45vh;
+    background-color: #5fc4b5;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .coffeebags {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bag {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .coffeetext {
+    width: 30vw;
+    font-size: 52px;
+  }
+
+  .content {
+    width: 600px;
+  }
+
+  .choose1 {
+    width: 500px;
+    font-size: larger;
+    margin-top: 50px;
+  }
+
+  .choosecard {
+    width: 18vw;
+    height: 45vh;
+    background-color: #5fc4b5;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .container {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .content {
+    width: 500px;
+  }
+
+  .coffeetext {
+    width: 30vw;
+    font-size: 52px;
+  }
+
+  .coffeebags {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+  }
+
+  .bag {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* background-color: green; */
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .footer-link {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    line-height: 50px;
+    align-items: center;
+  }
+
+  .footer-link2 {
+    margin-bottom: 50px;
+  }
+
+  .footerimg {
+    margin-top: 50px;
+  }
+
+
+  .image-bag {
+    height: 250px;
+    width: 250px;
+  }
+
+  .choosecard {
+    width: 24vw;
+    height: 40vh;
+    background-color: #5fc4b5;
+  }
+}
+
+.footer {
+  display: flex;
+}
+
+.collection {
+  font-size: 23vh;
+  margin-top: 300px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .bottombutton {
+        text-align: center;
+    }
+  .container {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .content {
+    width: 350px;
+  }
+
+  .lines {
+    visibility: hidden;
+  }
+
+  .steps {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .step {
+    text-align: center;
+  }
+
+  .quality {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .collection {
+    font-size: 12vh;
+    margin-top: 250px;
+  }
+
+
+  .choosecard {
+    width: 60vw;
+    margin-bottom: 15px;
+  }
+
+  .coffeebags {
+    margin-top: -10px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .links {
+    visibility: hidden;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+  padding-right: 20px;
+  font-weight: 600;
+  font-size: 2vh;
+}
