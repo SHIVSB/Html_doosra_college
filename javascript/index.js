@@ -93,12 +93,112 @@
 // }
 
 //arrow
-// const apple = () => {
-//   console.log("Apple");
+// const apple = (params) => {
+//   console.log(params);
 // };
 
-// apple(37);
+// apple("apple");
 
-(function apple(parameter) {
-  console.log(parameter);
-})("Apple");
+// (function apple(parameter) {
+//   console.log(parameter);
+// })("Apple");
+
+// Functions
+// Functions are the vip's in js
+
+// Function can be assignd to a variable
+// function can be returned from the function
+// function can be passed to another function - Callback
+
+// 1st
+// var variableName = function (param) {
+//   console.log(param);
+// };
+
+// variableName();
+
+// variableName("apple");
+
+// 2nd
+
+// const variableName = function () {
+//   return function () {
+//     console.log("apple");
+//   };
+// };
+
+// variableName();
+
+// callbacks are the functions that are passed to another function
+
+// let, const, var
+
+// const name = "apple"; // constant
+
+// var name = "apple"; // for global scope, reassign , redeclare
+// var name;
+
+// console.log(name);
+
+// let
+
+// let name = "apple"; // reassign , usually within function
+
+// name = "mango";
+
+// console.log(name);
+
+// camel casing, underscore
+
+// 1'st camel casing
+// function returnsName(){
+
+// }
+
+// 2'nd underscore
+// function returns_name(){
+
+// }
+
+// why interpreted
+
+// console.log(x);
+
+// const x = 10;
+
+// why compiled
+
+//Hoisting
+
+// ftn();
+
+// const ftn = function () {
+//   console.log("apple");
+// };
+
+// currying
+// function ftn(a) { // first second third
+//   return (b) => {
+//     return (c) => {
+//       return a + b;
+//     };
+//   };
+// }
+
+//function
+// function ftn2(a, b, c) {
+//   return a + b + c;
+// }
+
+// console.log(ftn2(10, 20, 30));
+
+// console.log(ftn(10)(20));
+
+// Hold
+// function apple() {
+//   return function calc() {
+//     return 10;
+//   };
+// }
+
+// console.log(apple());
