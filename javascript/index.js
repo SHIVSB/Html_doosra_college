@@ -129,7 +129,7 @@
 
 // variableName();
 
-// callbacks are the functions that are passed to another function
+// callbacks are the functions that are passed as an argument to another function
 
 // let, const, var
 
@@ -201,4 +201,7 @@
 //   };
 // }
 
+// var test = apple();
+
 // console.log(apple());
+
