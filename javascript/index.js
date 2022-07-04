@@ -192,7 +192,7 @@
 
 // console.log(ftn2(10, 20, 30));
 
-// console.log(ftn(10)(20));
+// console.log(ftn(10)(20)(30));
 
 // Hold
 // function apple() {
@@ -204,4 +204,33 @@
 // var test = apple();
 
 // console.log(apple());
+
+
+//1 // 2 //3 //4 // event loop // queue
+
+// const arr = ["mango","orange","banana","apple"];
+
+// console.log(arr.sort());
+
+// const check = "5463738239";
+
+// console.log(check.sort())
+
+
+// setInterval(function(){
+//     console.log("Hello Shiv"); 
+//    }, 1000)
+
+// const arr = [2,3,5,1,7,10]
+
+// for(let i = 0; i < arr.length; i++){
+//   	if(arr[i] % 2 == 0){
+//       console.log(arr[i]);
+//     }
+// }
+
+
+// const arr2 = arr.filter(element => element>=5);
+
+// console.log(arr2);
 
